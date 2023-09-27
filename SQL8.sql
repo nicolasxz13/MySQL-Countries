@@ -1,0 +1,1 @@
+select countries.region as region, count(*) from countries group by countries.region order by count(*) DESC

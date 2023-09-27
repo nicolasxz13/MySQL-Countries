@@ -1,0 +1,1 @@
+SELECT countries.name as countrry_name, cities.name as city_name, cities.district,cities.population from cities inner join countries on countries.id = cities.country_id WHERE cities.population > 500000 AND cities.district='Buenos Aires' order by countries.name asc

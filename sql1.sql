@@ -1,0 +1,1 @@
+SELECT countries.name FROM countries INNER JOIN languages on languages.country_id = countries.id WHERE languages.language = 'Slovene'
